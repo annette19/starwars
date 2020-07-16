@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weclome!</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}?q={{ time }}">
+    </head>
+    <body>
+        <h1>Welcome to Star Wars character profile</h1>
+        <p1> Type your favorite Star Wars character </p1>
+        <form method="POST" action="/results">
+            <input type="text" name="character" placeholder="Enter your favorite Star Wars character"/>
+            <input type="submit" value="Submit"/>
+        </form>
+        <style> 
+            body {
+                background-image: url('https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg')
+            }
+    </body>
+</html>
