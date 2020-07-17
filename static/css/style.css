@@ -1,20 +1,32 @@
-
-h1 {
-    color:blue; text-align:center; font-size:40px
+h2{
+    color:red; 
+    text-align:center; 
+    font-size:70px;
+    position:absolute;
+    left: 500px;
+    top: 5px;
 }
 
-h2 {
-    color:red;text-align:center; font-size:40px
+p2{
+    color:burlywood;
+    font-size:40px; 
+    position: absolute;
+    left: 10px;
+    top: 150px;
 }
 
-p1 {
-    color:pink;font-size:20px; 
+p3{
+    color:darkturquoise; 
+    font-size:40px;
+    position: absolute;
+    left: 10px;
+    top: 200px;
 }
 
-p2 {
-    color:palevioletred;font-size:20px;
+body  {
+  padding: 25px;
+  background: url("https://bensbargains.com/thecheckout/wp-content/uploads/2015/09/star-wars-jedi-masters.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px 1000px;
 }
 
-p3 {
-    color:green;font-size:20px;
-}
